@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page2"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".About">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="7dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fajarcr" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:background="@drawable/default_option_border_bg"
+       >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:fontFamily="casual"
+                    android:text="Nama" />
+
+                <TextView
+                    android:fontFamily="casual"
+                    android:gravity="end"
+                    android:text="Dicky Fajar Subkhi"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:fontFamily="casual"
+                    android:text="NIM" />
+
+                <TextView
+                    android:fontFamily="casual"
+                    android:gravity="end"
+                    android:text="12190828"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:fontFamily="casual"
+                    android:text="Kelas" />
+
+                <TextView
+                    android:fontFamily="casual"
+                    android:gravity="end"
+                    android:text="12.6A.09"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:fontFamily="casual"
+                    android:text="Email" />
+
+                <TextView
+                    android:fontFamily="casual"
+                    android:text="dyfas16@gmail.com"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </TableLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="7dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bsilw" />
+
+
+</LinearLayout>
