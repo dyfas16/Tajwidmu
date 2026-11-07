@@ -17,11 +17,11 @@ captures/
 *.ap_
 *.dex
 
-# Keystore (jangan pernah diunggah)
+# Keystore
 *.jks
 *.keystore
 
-# File Firebase/rahasia (hapus baris ini jika memang ingin diunggah)
+# File Firebase/rahasia 
 google-services.json
 
 # File sistem
