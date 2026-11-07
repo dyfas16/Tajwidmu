@@ -1,15 +1,29 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle
+.gradle/
+build/
+*/build/
+
+# File lokal Android Studio
 local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Hasil build aplikasi
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Keystore (jangan pernah diunggah)
+*.jks
+*.keystore
+
+# File Firebase/rahasia (hapus baris ini jika memang ingin diunggah)
+google-services.json
+
+# File sistem
+.DS_Store
+Thumbs.db
